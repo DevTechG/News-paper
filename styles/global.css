@@ -40,7 +40,7 @@ h1, h2, h3 {
     font: inherit;
 }
 
-h1, h2 {
+h1, h2, p {
     display: -webkit-box; /* Definir o elemento como um container flexível em formato de caixa */
     -webkit-box-orient: vertical; /* Orientação do conteúdo na direção vertical */
     overflow: hidden; /* Esconde o texto que ultrapassar o limite de linhas */
@@ -62,6 +62,7 @@ img {
 
 main {
     margin-top: 40px;
+    gap: 80px
 }
 
 .content-tag {
