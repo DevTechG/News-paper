@@ -40,6 +40,16 @@ h1, h2, h3 {
     font: inherit;
 }
 
+h1, h2 {
+    display: -webkit-box; /* Definir o elemento como um container flexível em formato de caixa */
+    -webkit-box-orient: vertical; /* Orientação do conteúdo na direção vertical */
+    overflow: hidden; /* Esconde o texto que ultrapassar o limite de linhas */
+    -webkit-line-clamp: 3; /* Limita o texto a 3 linhas */
+    line-height: 1.5; /* Ajusta o espaçamento entre as linhas */
+    max-height: 4.5em; /* Define a altura máxima com base no número de linhas */
+}
+
+
 .container {
     max-width: 1280px;
     padding-inline: 32px;
